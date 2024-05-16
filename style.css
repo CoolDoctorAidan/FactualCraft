@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Minecraft; src: url('Fonts/MinecraftRegular-Bmg3.otf'); 
+}
+
+.iframe-container {
+    margin: 0 auto;
+    display: none;
+}
+
+.container {
+    text-align: center;
+    font-family: Minecraft;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-family: Minecraft;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: Minecraft;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-family: Minecraft;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-family: Minecraft;
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    font-family: Minecraft;
+    color: white;
+}
+
+h5 {
+    text-align: center;
+    font-family: Minecraft;
+    color: white;
+}
+
+button {
+    font-family: Minecraft;
+    margin: 0 auto;
+    display: block;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+iframe {
+    border: none;
+}
+
+body {
+    background-image: url("background.png");
+}

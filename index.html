@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Minecraft For Free!</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Minecraft For Free!</h1>
+        <br>
+        <button onclick="openFullscreen(document.getElementById('game1'))">Fullscreen 1.5.2</button>
+        <button onclick="openFullscreen(document.getElementById('game2'))">Fullscreen 1.8.8</button>
+        <p>Please choose the <u>CORRECT</u> option.</p>
+        <br><br>
+        <div class="container">
+            <label for="versionSelect">Select Version:</label>
+            <select id="versionSelect" onchange="showIframe()">
+                <option value="">--Select--</option>
+                <option value="1.5.2">1.5.2</option>
+                <option value="1.8.8">1.8.8</option>
+            </select>
+            <div id="iframe1" class="iframe-container">
+                <iframe allow="clipboard-read; clipboard-write" id="game1" src="https://eaglercraft-bj5.pages.dev" scrolling="no" width="35%" height="35%" class="game"></iframe>
+            </div>
+            <div id="iframe2" class="iframe-container">
+                <iframe allow="clipboard-read; clipboard-write" id="game2" src="https://eaglercraftx.pages.dev" scrolling="no" width="35%" height="35%" class="game"></iframe>
+            </div>
+        </div>
+        <br>
+        <h5>Game *MAY* Blackscreen for a second please <u>click</u> on it to fix.</h5>
+        <p>This is a <u>Pirated</u> version of Minecraft. I do <u>NOT</u> own it.</p>
+        <br><br>
+        <h1>Supported Servers:</h1>
+        <p>There is <u>3</u> fully working servers. (1-2 1.5.2, 3 1.8.8)</p>
+        <img src="servers.png" width="25%" height="20%">
+    </body>
+</html>
